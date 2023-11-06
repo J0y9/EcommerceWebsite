@@ -1,0 +1,112 @@
+﻿@* @page "/products" *@
+@inherits CartBase
+@inject IProductService ProductService
+@inject ICategoryService CategoryService
+@inject IProductCategoryService ProductCategoryService
+@inject IConfiguration config
+<section class="products-section pt-5">
+    <div class="container ">
+        @* <h1 class="section__heading mb-4">Today's Best Deals For You</h1> *@
+                <ul class="category-taps nav nav-pills" id="pills-tab" role="tablist">
+                    @foreach (var item in Categories)
+                    {
+                        if (item is not null)
+                        {
+
+                            <li class="nav-item" role="presentation">
+                        <button role="tab" class="nav-link ms-2 mt-2" aria-selected="false" data-bs-toggle="pill" @onclick="() => ShowCategoryProducts(item.category_id)">@item.Name</button>
+                            </li>
+                        }
+                    }
+        
+                </ul>
+        <div class="products-container row mt-4">
+            @if (CategoryProducts is not null)
+            {
+
+                <Virtualize TItem="ProductsModel" Items="@CategoryProducts" Context="item">
+                    @if (item.quantity > 0)
+                    {
+                        <div class="col col-6 col-xl-3 col-lg-4 col-sm-6  mb-3">
+                            <div class="card">
+                                <a href="/p/@item.product_id">
+                                    <img src="@CreateWebPath(item.img_url)" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title d-flex justify-content-between">@item.name
+                                        <span class="">@item.price$</span>
+
+                                    </h5>
+                                    <p class="card-text">@item.description</p>
+                                    <button @onclick="(() => AddToCart(item))" class="btn mybtn--outline">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </Virtualize>
+                
+            }
+
+
+
+        </div>
+    </div>
+
+</section>
+@code {
+
+    public ProductBase ProductBase = new();
+    public List<CategoriesModel> Categories = new();
+    public List<ProductsModel> CategoryProducts;
+    public List<ProductsModel> Products = new();
+    private IEnumerable<ProductCategoryModel>? productCategory;
+    
+    public string CreateWebPath(string path)
+    {
+        if (!string.IsNullOrEmpty(path))
+        {
+
+            return Path.Combine(config.GetValue<string>("WebStorageRoot")!, path);
+        }
+        return "";
+    }
+    protected override async Task OnInitializedAsync()
+    {
+
+        CategoryProducts = await ProductService.GetProducts();
+        Products = await ProductService.GetProducts();
+        productCategory = await ProductCategoryService.GetProductCategory();
+        foreach (var item in productCategory)
+        {
+            var category = (await CategoryService.GetCategories()).FirstOrDefault(c => c.category_id == item.category_id);
+
+
+            if (category != null && !Categories.Exists(c=> c.category_id == category.category_id))
+            {
+                Categories.Add(category);
+            }
+
+
+        }
+        Categories = Categories.Distinct().ToList();
+
+    }
+
+    public async Task ShowCategoryProducts(int id)
+    {
+        var tmp = new List<ProductsModel>();
+        productCategory = await ProductCategoryService.GetProductCategory();
+
+        productCategory = productCategory.Where(c => c.category_id == id);
+
+        foreach (var item in productCategory)
+        {
+            tmp.Add(Products.Where(p => p.product_id == item.product_id).First());
+            
+        }
+
+        CategoryProducts = tmp;
+
+
+    }
+}

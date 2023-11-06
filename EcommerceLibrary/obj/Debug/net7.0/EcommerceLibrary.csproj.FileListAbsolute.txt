@@ -1,0 +1,12 @@
+C:\Users\jaafa\Source\Repos\Ecommerce5\EcommerceLibrary\bin\Debug\net7.0\EcommerceLibrary.deps.json
+C:\Users\jaafa\Source\Repos\Ecommerce5\EcommerceLibrary\bin\Debug\net7.0\EcommerceLibrary.dll
+C:\Users\jaafa\Source\Repos\Ecommerce5\EcommerceLibrary\bin\Debug\net7.0\EcommerceLibrary.pdb
+C:\Users\jaafa\Source\Repos\Ecommerce5\EcommerceLibrary\obj\Debug\net7.0\EcommerceLibrary.csproj.AssemblyReference.cache
+C:\Users\jaafa\Source\Repos\Ecommerce5\EcommerceLibrary\obj\Debug\net7.0\EcommerceLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaafa\Source\Repos\Ecommerce5\EcommerceLibrary\obj\Debug\net7.0\EcommerceLibrary.AssemblyInfoInputs.cache
+C:\Users\jaafa\Source\Repos\Ecommerce5\EcommerceLibrary\obj\Debug\net7.0\EcommerceLibrary.AssemblyInfo.cs
+C:\Users\jaafa\Source\Repos\Ecommerce5\EcommerceLibrary\obj\Debug\net7.0\EcommerceLibrary.csproj.CoreCompileInputs.cache
+C:\Users\jaafa\Source\Repos\Ecommerce5\EcommerceLibrary\obj\Debug\net7.0\EcommerceLibrary.dll
+C:\Users\jaafa\Source\Repos\Ecommerce5\EcommerceLibrary\obj\Debug\net7.0\refint\EcommerceLibrary.dll
+C:\Users\jaafa\Source\Repos\Ecommerce5\EcommerceLibrary\obj\Debug\net7.0\EcommerceLibrary.pdb
+C:\Users\jaafa\Source\Repos\Ecommerce5\EcommerceLibrary\obj\Debug\net7.0\ref\EcommerceLibrary.dll

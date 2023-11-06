@@ -1,0 +1,333 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorEcommerce.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorEcommerce.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\JavaScript\\all.min.js",
+      "PackagePath": "staticwebassets\\JavaScript\\all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\JavaScript\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\JavaScript\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\JavaScript\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\JavaScript\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\JavaScript\\main.js",
+      "PackagePath": "staticwebassets\\JavaScript\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\block.html",
+      "PackagePath": "staticwebassets\\components\\block.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\buttons.html",
+      "PackagePath": "staticwebassets\\components\\buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\cards.html",
+      "PackagePath": "staticwebassets\\components\\cards.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\cart.html",
+      "PackagePath": "staticwebassets\\components\\cart.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\category.html",
+      "PackagePath": "staticwebassets\\components\\category.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\checkout.html",
+      "PackagePath": "staticwebassets\\components\\checkout.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\discount-section.html",
+      "PackagePath": "staticwebassets\\components\\discount-section.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\footer.html",
+      "PackagePath": "staticwebassets\\components\\footer.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\grid.html",
+      "PackagePath": "staticwebassets\\components\\grid.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\hero.html",
+      "PackagePath": "staticwebassets\\components\\hero.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\inputs.html",
+      "PackagePath": "staticwebassets\\components\\inputs.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\links.html",
+      "PackagePath": "staticwebassets\\components\\links.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\lists.html",
+      "PackagePath": "staticwebassets\\components\\lists.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\nav.html",
+      "PackagePath": "staticwebassets\\components\\nav.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\prodcut-view-page.html",
+      "PackagePath": "staticwebassets\\components\\prodcut-view-page.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\product--section.html",
+      "PackagePath": "staticwebassets\\components\\product--section.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\components\\product.html",
+      "PackagePath": "staticwebassets\\components\\product.html"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\ImgPlaceHolder.jpg",
+      "PackagePath": "staticwebassets\\images\\ImgPlaceHolder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\airpod max-min.png",
+      "PackagePath": "staticwebassets\\images\\airpod max-min.png"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\airpodmax-large-black.png",
+      "PackagePath": "staticwebassets\\images\\airpodmax-large-black.png"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\airpodmax-large-blue.jpg",
+      "PackagePath": "staticwebassets\\images\\airpodmax-large-blue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\airpodmax-large-green.jpg",
+      "PackagePath": "staticwebassets\\images\\airpodmax-large-green.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\airpodmax-large-red.jpg",
+      "PackagePath": "staticwebassets\\images\\airpodmax-large-red.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\airpodmax-large-white.jpg",
+      "PackagePath": "staticwebassets\\images\\airpodmax-large-white.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\expand.svg",
+      "PackagePath": "staticwebassets\\images\\expand.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\furniture.png",
+      "PackagePath": "staticwebassets\\images\\furniture.png"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\headset.jpg",
+      "PackagePath": "staticwebassets\\images\\headset.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\keyboard.jpg",
+      "PackagePath": "staticwebassets\\images\\keyboard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\menu.svg",
+      "PackagePath": "staticwebassets\\images\\menu.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\menu1.svg",
+      "PackagePath": "staticwebassets\\images\\menu1.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\search_icon.svg",
+      "PackagePath": "staticwebassets\\images\\search_icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\shopping-cart-add.png",
+      "PackagePath": "staticwebassets\\images\\shopping-cart-add.png"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\string\\5ilwcyo4.jpg",
+      "PackagePath": "staticwebassets\\images\\string\\5ilwcyo4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\string\\c1jwps5n.png",
+      "PackagePath": "staticwebassets\\images\\string\\c1jwps5n.png"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\string\\ijsbgkwf.exe",
+      "PackagePath": "staticwebassets\\images\\string\\ijsbgkwf.exe"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\string\\jmk4umpn.png",
+      "PackagePath": "staticwebassets\\images\\string\\jmk4umpn.png"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\string\\nhgsnbnz.jpg",
+      "PackagePath": "staticwebassets\\images\\string\\nhgsnbnz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\string\\oclyn20d.jpg",
+      "PackagePath": "staticwebassets\\images\\string\\oclyn20d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\string\\px4vrcnh.jpg",
+      "PackagePath": "staticwebassets\\images\\string\\px4vrcnh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\string\\pzchd3x3.jpg",
+      "PackagePath": "staticwebassets\\images\\string\\pzchd3x3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\string\\ql1c0dqa.png",
+      "PackagePath": "staticwebassets\\images\\string\\ql1c0dqa.png"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\string\\r32jqx2y.jpg",
+      "PackagePath": "staticwebassets\\images\\string\\r32jqx2y.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\string\\u0eky2hu.exe",
+      "PackagePath": "staticwebassets\\images\\string\\u0eky2hu.exe"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\string\\u3iwf0mj.png",
+      "PackagePath": "staticwebassets\\images\\string\\u3iwf0mj.png"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\string\\z3ewkesy.exe",
+      "PackagePath": "staticwebassets\\images\\string\\z3ewkesy.exe"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\string\\zvpaj4l4.png",
+      "PackagePath": "staticwebassets\\images\\string\\zvpaj4l4.png"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\images\\user.png",
+      "PackagePath": "staticwebassets\\images\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BlazorEcommerce.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BlazorEcommerce.props",
+      "PackagePath": "build\\BlazorEcommerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorEcommerce.props",
+      "PackagePath": "buildMultiTargeting\\BlazorEcommerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BlazorEcommerce.props",
+      "PackagePath": "buildTransitive\\BlazorEcommerce.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

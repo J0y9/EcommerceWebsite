@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorEcommerce
+build_property.RootNamespace = BlazorEcommerce
+build_property.ProjectDir = C:\Users\jaafa\source\repos\Ecommerce5\BlazorEcommerce\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\jaafa\source\repos\Ecommerce5\BlazorEcommerce
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/AdminLog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5Mb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/Analytics.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5hbHl0aWNzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/Category.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/Checkout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/Component.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/CouponPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cG9uUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/CustomerLog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJMb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/DashBoardAdminInvite.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaEJvYXJkQWRtaW5JbnZpdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/DashBoardProdcuts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaEJvYXJkUHJvZGN1dHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/DiscountPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY291bnRQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/HomePage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/Product.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/ProductsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Shared/DashboardLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXERhc2hib2FyZExheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Shared/Footter.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3R0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Shared/NavBar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdkJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Shared/Topmenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRvcG1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Shared/DashboardNav.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXERhc2hib2FyZE5hdi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-6ug3x1ktmh
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-8atdzzv5l0
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-saj6765gvx
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jaafa/source/repos/Ecommerce5/BlazorEcommerce/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

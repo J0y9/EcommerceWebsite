@@ -1,0 +1,53 @@
+﻿
+@page "/log"
+@using System.Net.Http.Headers;
+@layout DashboardLayout
+@inherits MainBase
+
+
+@attribute [Authorize(Policy ="Admin")]
+
+<div class="container  mt-5">
+
+    <table class="table table-striped" >
+
+        <thead>
+
+        </thead>
+        <tbody>
+        @if (adminLog is not null)
+        {
+
+
+@foreach (var item in adminLog)
+{
+    <tr class="">
+        <td class="fs-5 table-striped">
+        @item.log_msg
+
+        </td>
+    </tr>
+}
+        }
+        else
+        {
+            <h3>Nothing added yet</h3>
+        }
+
+        </tbody>
+    </table>
+</div>
+
+
+@code {
+    private  IEnumerable<AdminLogsModel> adminLog;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var token = await LocalStorage.GetItemAsync<string>("token");
+        client = factory.CreateClient("api");
+        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token.Replace("\"", ""));
+        adminLog = await client.GetFromJsonAsync<IEnumerable<AdminLogsModel>>("AdminLogs");
+    }
+
+}

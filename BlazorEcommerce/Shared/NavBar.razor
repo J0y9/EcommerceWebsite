@@ -1,0 +1,156 @@
+﻿@using Microsoft.JSInterop.Implementation
+@using Pages
+@inherits CartBase
+
+
+
+
+<nav class="main-nav navbar navbar-expand-lg shadow ">
+    <div class="container">
+        <NavLink class="navbar-brand" href="" @onclick="ToHome" Match="NavLinkMatch.All">
+            <img src="https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63e86ab4c21faa7bc0bd90dd_Logo.svg"
+                 alt="" />
+        </NavLink>
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-lg-5 mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       role="button"
+                       data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Category
+                    </a>
+                    <ul class="dropdown-menu">
+                        @foreach (var item in Categories)
+                        {
+                            <li><button class="dropdown-item" @onclick="()=>ToCategotry(item.category_id)">@item.Name</button></li>
+
+                        }
+
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a  class="nav-link" onclick="document.getElementById('deals').scrollIntoView({behavior:'smooth'})">Deals</a>
+
+                </li>
+                <AuthorizeView Context="AAXX" Policy="Admin">
+                    <Authorized>
+
+                <li class="nav-item dropdown">
+                    <a  class="nav-link" href="dash" >Dashboard</a>
+
+                </li>
+                    </Authorized>
+ 
+                </AuthorizeView>
+            </ul>
+            <form class="input-form ms-lg-5 d-flex" role="search">
+
+                <BlazoredTypeahead SearchMethod="@SearchProducts"
+                                   TValue="ProductsModel"
+                                   TItem="ProductsModel"
+                                   Value="selectedProduct"
+                                   ValueChanged="HandleSearch"
+                                   ValueExpression="@(() => selectedProduct)"
+                                   placeholder="Search">
+                    <SelectedTemplate>
+                        @context.name
+                    </SelectedTemplate>
+                    <ResultTemplate>
+                        @context.name
+                    </ResultTemplate>
+                    <NotFoundTemplate>
+                        get otta here
+                    </NotFoundTemplate>
+                </BlazoredTypeahead>
+            </form>
+
+            <AuthorizeView>
+                <Authorized >
+                    <a href="" class="nav-link mt-sm-2 mb-sm-2 ms-lg-auto mt-3 d-flex align-items-center d-lg-flex justify-content-lg-center align-items-lg-center d-sm-flex justify-content-sm-start align-items-sm-center">
+                        <i class="fa-regular fa-user pe-2 ms-lg-3"></i>
+                        <p class="m-0" @onclick="Logout">Logout</p>
+                    </a>
+                </Authorized>
+                <NotAuthorized>
+                    <a href="/login" class="nav-link mt-sm-2 mb-sm-2 ms-lg-auto mt-3 d-flex align-items-center d-lg-flex justify-content-lg-center align-items-lg-center d-sm-flex justify-content-sm-start align-items-sm-center">
+                        <i class="fa-regular fa-user pe-2 ms-lg-3"></i>
+                        <p class="m-0">Login</p>
+                    </a>
+                </NotAuthorized>
+            </AuthorizeView>
+            @if (!IsOnCheckout)
+            {
+                <NavLink disabled="@IsHomeLinkDisabled" href="#offcanvas" id="cart" @onclick="ShowCart" role="button" data-bs-toggle="offcanvas" aria-controls="offcanvas" class="nav-link  ms-lg-4 mt-sm-1 mt-3 d-flex align-items-center d-lg-flex justify-content-lg-center align-items-lg-center d-sm-flex justify-content-sm-start align-items-sm-center">
+                    <i class="fa-solid fa-cart-shopping pe-2"></i>
+                    <p class="m-0 position-relative">
+                        Cart
+                        <span class="position-absolute top-0 start-100 translate-middle-y badge rounded-pill bg-danger">
+                            @CartCount()
+
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </p>
+                </NavLink>
+            }
+        </div>
+    </div>
+</nav>
+<div class="offcanvas offcanvas-end cart" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLabel">Your Cart</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
+        @if (CartItems is null)
+        {
+            <p>no items found</p>
+        }
+        else if (CartItems.Count() > 0)
+        {
+            @foreach (var item in CartItems)
+            {
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-4">
+                            <img src="@item.img_url" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <button type="button" class="btn-close" aria-label="Close" @onclick="() => DeleteFromCart(item)"></button>
+                                <h5 class="card-title d-flex justify-content-between">
+                                    @item.name
+                                    <span>@item.price$</span>
+                                </h5>
+                                <p class="card-text">@item.description</p>
+                                <p>amount: @item.ProductAmount</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            <p class="d-flex justify-content-between border-top pt-2">
+                Total Price
+                <span>@CalculateTotal()</span>
+            </p>
+            <button @onclick="ToCheckout" class="mybtn mybtn--primary align-self-center">Checkout</button>
+        }
+        else
+        {
+            <p>no items found</p>
+        }
+    </div>
+</div>
+

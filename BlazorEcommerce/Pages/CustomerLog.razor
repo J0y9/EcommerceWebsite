@@ -1,0 +1,75 @@
+﻿@page "/CustomerLog"
+@using System.Net.Http.Headers;
+@layout DashboardLayout
+@inherits MainBase
+
+
+<AuthorizeView  Policy="Admin">
+    <section class="customer-log">
+    <div class="container">
+        <div class="row mt-4">
+
+            @if (CustomersOrders is not null)
+            {
+                            <div class="accordion" id="accordionExample">
+                    <div class="row">
+                        @foreach (var item in CustomersOrders)
+                {
+
+                            <div class="col-6 col-lg-4">
+
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne{@item.receipt}" aria-expanded="false" aria-controls="collapseOne{@item.receipt}">
+                                    @item.first_name
+                                    <span class="text-break ms-3">@item.receipt</span>
+                                </button>
+                            </h2>
+
+
+
+                                    @if (ProductsOrders is not null)
+                            {
+
+
+                                @foreach (var product in ProductsOrders)
+                                {
+                                    @if (product.order_id == item.order_id)
+                                    {
+                                        
+                                    
+
+                                        <div id="collapseOne{@item.receipt}" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                                            <div class="accordion-body">
+                                                <table class="table">
+                                                    <tbody>
+
+                                                <tr>
+                                                    <td>@product.name</td>
+                                                    <td>@product.amount</td>
+                                                    <td>$@product.total</td>
+                                                </tr>
+                                                    </tbody>
+                                                </table>
+
+                                            </div>
+                                        </div>
+                                    }
+
+                                    
+                                }
+                            }
+                        </div>
+                            </div>
+
+
+                    
+                }
+                    </div>
+                        </div>
+            }
+        </div>
+
+    </div>
+</section>
+</AuthorizeView>
