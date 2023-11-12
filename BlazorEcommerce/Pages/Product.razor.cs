@@ -1,4 +1,5 @@
-﻿using BlazorEcommerce.Services.Interface;
+﻿using BlazorEcommerce.Services;
+using BlazorEcommerce.Services.Interface;
 using EcommerceLibrary.Models;
 using Microsoft.AspNetCore.Components;
 
@@ -8,6 +9,7 @@ partial class Product : CartBase
 {
     [Parameter]
     public int Id { get; set; }
+
     [Inject] public IProductService ProductService { get; set; }
     public ProductsModel product = new();
     protected async override Task OnInitializedAsync()

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\BlazorEcommerce.csproj": {}
+    "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\BlazorEcommerce\\BlazorEcommerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\BlazorEcommerce.csproj": {
+    "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\BlazorEcommerce\\BlazorEcommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\BlazorEcommerce.csproj",
+        "projectUniqueName": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\BlazorEcommerce\\BlazorEcommerce.csproj",
         "projectName": "BlazorEcommerce",
-        "projectPath": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\BlazorEcommerce.csproj",
+        "projectPath": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\BlazorEcommerce\\BlazorEcommerce.csproj",
         "packagesPath": "C:\\Users\\jaafa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\obj\\",
+        "outputPath": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\BlazorEcommerce\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jaafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceLibrary\\EcommerceLibrary.csproj": {
-                "projectPath": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceLibrary\\EcommerceLibrary.csproj"
+              "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceLibrary\\EcommerceLibrary.csproj": {
+                "projectPath": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceLibrary\\EcommerceLibrary.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceLibrary\\EcommerceLibrary.csproj": {
+    "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceLibrary\\EcommerceLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceLibrary\\EcommerceLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceLibrary\\EcommerceLibrary.csproj",
         "projectName": "EcommerceLibrary",
-        "projectPath": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceLibrary\\EcommerceLibrary.csproj",
+        "projectPath": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceLibrary\\EcommerceLibrary.csproj",
         "packagesPath": "C:\\Users\\jaafa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceLibrary\\obj\\",
+        "outputPath": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jaafa\\AppData\\Roaming\\NuGet\\NuGet.Config",

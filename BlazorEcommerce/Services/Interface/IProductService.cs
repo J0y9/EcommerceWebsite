@@ -10,4 +10,5 @@ public interface IProductService
     Task<HttpResponseMessage> DeleteProduct(int productId);
     Task<HttpResponseMessage> AddProduct(ProductsModel product);
     // Task IEnumerable<ProductsModel> SearchProduct(string productName)
+    string CreateWebPath(string path);
 }

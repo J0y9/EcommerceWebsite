@@ -13,12 +13,14 @@ namespace BlazorEcommerce.Services
         private  IHttpClientFactory? _factory;
         private  HttpClient? _client;
         private readonly ILocalStorageService localStorage;
+        private IConfiguration _config;
 
-        public ProductService(IHttpClientFactory factory,HttpClient client,ILocalStorageService localStorage)
+        public ProductService(IHttpClientFactory factory,HttpClient client,ILocalStorageService localStorage, IConfiguration config)
         {
             _factory = factory;
             _client = client;
             this.localStorage = localStorage;
+            _config = config;
         }
         
         public async Task<List<ProductsModel>> GetProducts()
@@ -48,6 +50,16 @@ namespace BlazorEcommerce.Services
             var response = await _client.PostAsJsonAsync("Products", product);
                 return response;
 
+        }
+
+        public string CreateWebPath(string path)
+        {
+            if (!string.IsNullOrEmpty(path))
+            {
+                var combinedPath = Path.Combine(_config.GetValue<string>("WebStorageRoot")!, path);
+                return combinedPath;
+            }
+            return "";
         }
 
 

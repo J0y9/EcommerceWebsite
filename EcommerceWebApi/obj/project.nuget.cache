@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DUXmncWMOBx3m13EqbDfaPjhDV5+A1/gwPueB27rVOGYDkEiYQ2pHbP1mxV+ZM/hqPsxG7Nq/Px5n4mvaIlE7g==",
+  "dgSpecHash": "9HtkxsRBdJD8BpI2XxToprWbbT+aGoUbwxSV1wufZkaaUvKWfH+IKb9kBDIBxdWsBe7KCfPOqygcL3d++VR/7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceWebApi\\EcommerceWebApi.csproj",
+  "projectFilePath": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceWebApi\\EcommerceWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaafa\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\jaafa\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

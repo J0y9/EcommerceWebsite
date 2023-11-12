@@ -3287,11 +3287,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceWebApi\\EcommerceWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceWebApi\\EcommerceWebApi.csproj",
       "projectName": "EcommerceWebApi",
-      "projectPath": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceWebApi\\EcommerceWebApi.csproj",
+      "projectPath": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceWebApi\\EcommerceWebApi.csproj",
       "packagesPath": "C:\\Users\\jaafa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceWebApi\\obj\\",
+      "outputPath": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jaafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3308,8 +3308,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceLibrary\\EcommerceLibrary.csproj": {
-              "projectPath": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceLibrary\\EcommerceLibrary.csproj"
+            "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceLibrary\\EcommerceLibrary.csproj": {
+              "projectPath": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceLibrary\\EcommerceLibrary.csproj"
             }
           }
         }

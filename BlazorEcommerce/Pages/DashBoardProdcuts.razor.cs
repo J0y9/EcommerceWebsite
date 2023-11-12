@@ -342,15 +342,15 @@ partial class DashBoardProdcuts : MainBase
     }
 
 
-    public string CreateWebPath(string path)
-    {
-        if (!string.IsNullOrEmpty(path))
-        {
-
-            return Path.Combine(config.GetValue<string>("WebStorageRoot")!, path);
-        }
-        return "";
-    }
+    // public string CreateWebPath(string path)
+    // {
+    //     if (!string.IsNullOrEmpty(path))
+    //     {
+    //
+    //         return Path.Combine(config.GetValue<string>("WebStorageRoot")!, path);
+    //     }
+    //     return "";
+    // }
     private void HandleSearch(ProductsModel product)
     {
         if (product == null) return;

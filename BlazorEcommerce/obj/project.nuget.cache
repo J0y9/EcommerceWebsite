@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HHDCVTMKVrGgR10fua8Mn86rGECg9Pdlu+nE9+KIlRqzxenVJXHInIvGaVWNJYKwqcbriiWhyL1YEKm58nfENw==",
+  "dgSpecHash": "o65vSnuqd1Hezy2Hom5L57y2Fd7xHhkYg+iS3XzDX4frXS07joB2uKJ7kC6TjHoMM7BhFMZV+qtfbiaLKYGZAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\BlazorEcommerce\\BlazorEcommerce.csproj",
+  "projectFilePath": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\BlazorEcommerce\\BlazorEcommerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaafa\\.nuget\\packages\\blazored.localstorage\\4.3.0\\blazored.localstorage.4.3.0.nupkg.sha512",
     "C:\\Users\\jaafa\\.nuget\\packages\\blazored.sessionstorage\\2.3.0\\blazored.sessionstorage.2.3.0.nupkg.sha512",

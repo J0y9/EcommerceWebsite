@@ -1472,11 +1472,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceLibrary\\EcommerceLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceLibrary\\EcommerceLibrary.csproj",
       "projectName": "EcommerceLibrary",
-      "projectPath": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceLibrary\\EcommerceLibrary.csproj",
+      "projectPath": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceLibrary\\EcommerceLibrary.csproj",
       "packagesPath": "C:\\Users\\jaafa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jaafa\\Source\\Repos\\Ecommerce5\\EcommerceLibrary\\obj\\",
+      "outputPath": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jaafa\\AppData\\Roaming\\NuGet\\NuGet.Config",

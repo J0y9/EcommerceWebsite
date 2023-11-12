@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vsbPQL58S0+UiSeH89X0MpLGstTjJEqFCAEi7ngx1Mcq9TNwPz7JQqQLITqDouZCUt4bC7SkvOoWfL9MUa9QyQ==",
+  "dgSpecHash": "6FKckwIka21GCdceM7iIdxhpb2/FpVjliLSfmy2iAT9pMri7octalTqcEH3YQ5M/9skTimgawVZd5wTPXBa0rg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaafa\\source\\repos\\Ecommerce5\\EcommerceLibrary\\EcommerceLibrary.csproj",
+  "projectFilePath": "C:\\Users\\jaafa\\RiderProjects\\EcommerceWebsite\\EcommerceLibrary\\EcommerceLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaafa\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\jaafa\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
