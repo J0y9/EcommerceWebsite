@@ -22,3 +22,4 @@ C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceLibrary\obj\Debug\net7.0\
 C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceLibrary\obj\Debug\net7.0\refint\EcommerceLibrary.dll
 C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceLibrary\obj\Debug\net7.0\EcommerceLibrary.pdb
 C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceLibrary\obj\Debug\net7.0\ref\EcommerceLibrary.dll
+C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceLibrary\obj\Debug\net7.0\EcommerceLibrary.sourcelink.json

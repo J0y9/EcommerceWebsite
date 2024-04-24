@@ -135,7 +135,10 @@ a {
     font-size: 1.75rem;
 }
 /* Start Products */
-
+.products-price{
+    font-size: 1.125rem;
+    font-weight: 600;
+}
 .category-taps .nav-item .nav-link {
     border-radius: 100px;
     padding: .6rem 1.3rem;
