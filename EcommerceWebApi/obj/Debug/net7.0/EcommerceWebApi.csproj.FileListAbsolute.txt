@@ -140,9 +140,10 @@ C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceWebApi\obj\Debug\net7.0\s
 C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceWebApi\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceWebApi\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceWebApi\obj\Debug\net7.0\scopedcss\bundle\EcommerceWebApi.styles.css
-C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceWebApi\obj\Debug\net7.0\EcommerceWebApi.csproj.CopyComplete
 C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceWebApi\obj\Debug\net7.0\EcommerceWebApi.dll
 C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceWebApi\obj\Debug\net7.0\refint\EcommerceWebApi.dll
 C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceWebApi\obj\Debug\net7.0\EcommerceWebApi.pdb
 C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceWebApi\obj\Debug\net7.0\EcommerceWebApi.genruntimeconfig.cache
 C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceWebApi\obj\Debug\net7.0\ref\EcommerceWebApi.dll
+C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceWebApi\obj\Debug\net7.0\EcommerceWebApi.sourcelink.json
+C:\Users\jaafa\RiderProjects\EcommerceWebsite\EcommerceWebApi\obj\Debug\net7.0\Ecommerc.EBFD4107.Up2Date
